@@ -33,9 +33,17 @@ public class Document {
         }
     }
 
+    public void effacer(String texte) {
+        if (texte != null && !texte.isEmpty()) {
+            int startIndex = this.texte.indexOf(texte);
+            if (startIndex != -1) {
+                int endIndex = startIndex + texte.length();
+                remplacer(startIndex, endIndex, "");
+            }
+        }
+    }
 
-
-    @Override
+            @Override
     public String toString() {
         return this.texte;
     }
