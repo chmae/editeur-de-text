@@ -34,10 +34,7 @@ public class Document {
     }
 
     public void clear() {
-        texte = "";
-    }
-    public void introduireBug() {
-        texte += "X";
+        texte = "X";
     }
     public void effacer(String texte) {
         if (texte != null && !texte.isEmpty()) {
