@@ -10,7 +10,7 @@ public class CommandeClear extends CommandeDocument{
     @Override
     public void executer() {
         if(parameters.length < 2) {
-            System.err.println("Format attendu : clear;");
+            System.err.println(" ");
             return;
         }
         this.document.clear();

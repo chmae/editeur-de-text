@@ -34,7 +34,7 @@ public class Document {
     }
 
     public void clear() {
-        texte = "X";
+        texte = "";
     }
     public void effacer(String texte) {
         if (texte != null && !texte.isEmpty()) {
