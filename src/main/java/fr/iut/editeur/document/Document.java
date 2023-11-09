@@ -36,6 +36,9 @@ public class Document {
     public void clear() {
         texte = "";
     }
+    public void introduireBug() {
+        texte += "X";
+    }
 
 
     @Override

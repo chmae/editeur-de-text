@@ -19,6 +19,7 @@ public class CommandeFactory {
     public Commande createCommand(String name, Document document, String[] parameters) {
         switch (name) {
             case "ajouter" : return new CommandeAjouter(document, parameters);
+            case "clear" : return new CommandeClear(document,parameters);
             default: return null;
         }
     }
