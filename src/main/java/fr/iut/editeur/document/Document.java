@@ -33,13 +33,12 @@ public class Document {
         }
     }
 
-<<<<<<< HEAD
     public void clear() {
         texte = "";
     }
     public void introduireBug() {
         texte += "X";
-=======
+    }
     public void effacer(String texte) {
         if (texte != null && !texte.isEmpty()) {
             int startIndex = this.texte.indexOf(texte);
@@ -48,7 +47,7 @@ public class Document {
                 remplacer(startIndex, endIndex, "");
             }
         }
->>>>>>> development_effacer
+
     }
 
             @Override
