@@ -1,0 +1,22 @@
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'/home/ann2/asiamarc/Documents/SEMESTRE_3/Conception/editeur-de-texte/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/ann2/asiamarc/Documents/SEMESTRE_3/Conception/editeur-de-texte/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'EditeurDeTexte 0.0.1 API'
+-use
+-version
+-windowtitle
+'EditeurDeTexte 0.0.1 API'

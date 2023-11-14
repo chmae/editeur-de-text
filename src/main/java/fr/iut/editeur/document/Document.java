@@ -1,21 +1,44 @@
 package fr.iut.editeur.document;
 
+/**
+ * Cette classe Document initialise les methodes generaux pour les autres classes
+ */
 public class Document {
-
+    /**
+     * C'est un texte de type String
+     */
     private String texte;
 
+
+    /**
+     * Ce constructeur permet d'initialiser le texte
+     * @initialise le texte
+     */
     public Document() {
         this.texte = "";
     }
-	
+
+    /**
+     * Cette méthode est un acceseur de texte pour le lire
+     * @return le texte
+     */
     public String getTexte() {
         return texte;
     }
 
+    /**
+     * Cette méthode permet de modifier le texte
+     * @return rien
+     */
     public void setTexte(String texte) {
         this.texte = texte;
     }
 
+    /**
+     * Cette méthode ajoute du texte
+     * @param texte est le texte pour l'ajouter
+     * @return rien
+     */
     public void ajouter(String texte) {
         this.texte += texte;
     }
